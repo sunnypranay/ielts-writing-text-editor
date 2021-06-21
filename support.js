@@ -4,7 +4,7 @@ var mins = 15;
 //calculate the seconds
 var secs = mins * 60;
 
-var audio = new Audio("/videoplayback.mp3");
+var audio = new Audio("./videoplayback.mp3");
 
 //countdown function is evoked when page is loaded
 function countdown() {

@@ -20,7 +20,7 @@ textarea:focus {
 }
 
 textarea {
-  width: 700px;
+  width: 50%;
 }
 
 input,
@@ -33,7 +33,6 @@ button {
 }
 
 body {
-  height: 100vh;
   margin: 0;
 }
 
@@ -42,6 +41,7 @@ body {
   flex-direction: column;
 }
 footer {
+  display: flex;
   background-color: antiquewhite;
   padding: 5px;
   margin-top: auto;

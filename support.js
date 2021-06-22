@@ -3,17 +3,22 @@ var mins = 15;
 
 //calculate the seconds
 var secs = mins * 60;
-
+var timer = '';
 var audio = new Audio("./videoplayback.mp3");
 
 //countdown function is evoked when page is loaded
 function countdown() {
+  if (document.getElementById("min").value > 0){
   document.getElementById("writing").disabled = false;
-  setTimeout("Decrement()", 60);
+  timer = setTimeout("Decrement()", 60);
   mins = document.getElementById("min").value;
   secs = mins * 60;
   document.getElementById("startimer").disabled = true;
   document.getElementById("min").disabled = true;
+  }
+  else{
+    alert("Timer cannot be 0");
+  }
 }
 
 //Decrement function decrement the value.
@@ -47,6 +52,7 @@ function Decrement() {
       document.getElementById("writing").disabled = true;
       document.getElementById("pause").style.display = "block";
       document.getElementById("startimer").disabled = false;
+      document.getElementById("min").disabled = false;
       time.innerHTML = "Time Up 💔";
       time.style.color = "red";
     }
@@ -91,3 +97,8 @@ document
     document.querySelector("#word_count").innerText =
       "Total Word Count - " + res.length;
   });
+
+  function resettextbox(){
+    document.querySelector('#word_count').innerText = "Total Word Count - 0"; 
+    document.getElementById('writing').value = '';
+  }

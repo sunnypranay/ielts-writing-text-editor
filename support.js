@@ -3,20 +3,19 @@ var mins = 15;
 
 //calculate the seconds
 var secs = mins * 60;
-var timer = '';
+var timer = "";
 var audio = new Audio("./videoplayback.mp3");
 
 //countdown function is evoked when page is loaded
 function countdown() {
-  if (document.getElementById("min").value > 0){
-  document.getElementById("writing").disabled = false;
-  timer = setTimeout("Decrement()", 60);
-  mins = document.getElementById("min").value;
-  secs = mins * 60;
-  document.getElementById("startimer").disabled = true;
-  document.getElementById("min").disabled = true;
-  }
-  else{
+  if (document.getElementById("min").value > 0) {
+    document.getElementById("writing").disabled = false;
+    timer = setTimeout("Decrement()", 60);
+    mins = document.getElementById("min").value;
+    secs = mins * 60;
+    document.getElementById("startimer").disabled = true;
+    document.getElementById("min").disabled = true;
+  } else {
     alert("Timer cannot be 0");
   }
 }
@@ -98,8 +97,8 @@ document
       "Total Word Count - " + res.length;
   });
 
-  function resettextbox(){
-    document.querySelector('#word_count').innerText = "Total Word Count - 0"; 
-    document.getElementById('writing').value = '';
-    document.getElementById("writing").disabled = false;
-  }
+function resettextbox() {
+  document.querySelector("#word_count").innerText = "Total Word Count - 0";
+  document.getElementById("writing").value = "";
+  document.getElementById("writing").disabled = false;
+}

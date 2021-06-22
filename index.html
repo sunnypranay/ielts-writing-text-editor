@@ -1,8 +1,12 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta name="description" content="This project helps IELTS aspirants to practice writing section. 
+    With features including Timer, word count, disabled autocorrect, autocomplete, Grammarly extensions.">
     <link rel="stylesheet" href="./style.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> IELTS - Writing Practice</title>
 </head>
 
 <body onload="cleartextarea()">
@@ -15,8 +19,9 @@
     <div id="word_count"> Total Word Count - 0 </div>
 
     <div id="writing_area">
-        <textarea name="writing"  spellcheck="false" autocorrect="off" autocapitalize="off"
-            data-gramm_editor="false" id="writing" cols="100" rows="30">
+        <label for="writing">Start writing here..</label>
+        <textarea name="writing" spellcheck="false" autocorrect="off" autocapitalize="off" data-gramm_editor="false"
+            id="writing" cols="100" rows="30">
         </textarea>
     </div>
     <br>
@@ -25,12 +30,13 @@
         <br>
         <button onclick="countdown()" id="startimer">Start Timer</button>
         <button onclick="pauseAudio()" id="pause">Pause Audio</button>
-        <button onclick="resettextbox()" id="reset" >Reset Text Editior</button>
+        <button onclick="resettextbox()" id="reset">Reset Text Editior</button>
     </div>
     </div>
     <footer>
-       <a href="#"> Made Wih 💙 ~SunnyPranay</a>
-        <a href="https://github.com/sunnypranay/ielts-writing-text-editor" target="__blank__" >👨‍💻Contribute to this project.👩‍💻</a>
+        <a href="#"> Made Wih 💙 ~SunnyPranay</a>
+        <a href="https://github.com/sunnypranay/ielts-writing-text-editor" target="__blank__">👨‍💻Contribute to this
+            project.👩‍💻</a>
     </footer>
     <script src="./support.js"></script>
 </body>

@@ -1,6 +1,6 @@
 # 🖋 IELTS - Writing - Practice 🖋
 
-Visit our website <a href="https://sunnypranay.github.io/ielts-writing-text-editor/" target="__blank__"> here </a>
+- Visit our website <a href="https://sunnypranay.github.io/ielts-writing-text-editor/" target="__blank__"> here </a>
 
 ## Current Features 👨‍💻.
 -  This project mainly focused on a category of people  who are preparing for IELTS exams.

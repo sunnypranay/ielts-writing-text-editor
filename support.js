@@ -101,4 +101,5 @@ document
   function resettextbox(){
     document.querySelector('#word_count').innerText = "Total Word Count - 0"; 
     document.getElementById('writing').value = '';
+    document.getElementById("writing").disabled = false;
   }

@@ -10,7 +10,7 @@
 
 - It provides you with timer ⏰ functionality. So that you can time your self while you are writing. when the time is up the text area will automatically be blocked. and it will prompt you with a pleasant sound to remind you that the time is over.
 
-- It provides you with a word count also. In IELTS ❌penalty will be given if you exceed the word limit. So you can keep a tab on how much words you are writing.
+- It provides you with a word count also. So you can keep a tab on how much words you are writing.
 
 - Reset text editor with 👆 one-click.
 

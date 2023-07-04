@@ -20,6 +20,10 @@ function countdown() {
   }
 }
 
+function getFormattedTime(n) {
+  return n.toString().padStart(2, '0');
+}
+
 //Decrement function decrement the value.
 function Decrement() {
   if (document.getElementById) {
@@ -28,14 +32,14 @@ function Decrement() {
     //if less than a minute remaining
     //Display only seconds value.
     if (secs < 59 && secs >= 0) {
-      time.innerHTML = "Timer - 0:" + secs;
+      time.innerHTML = "Timer - 0:" + getFormattedTime(secs);
     }
 
     //Display both minutes and seconds
     //getminutes and getseconds is used to
     //get minutes and seconds
     else if (secs >= 0) {
-      time.innerHTML = "Timer - " + getminutes() + ":" + getseconds();
+      time.innerHTML = "Timer - " + getFormattedTime(getminutes()) + ":" + getFormattedTime(getseconds());
     }
     //when less than a minute remaining
     //colour of the minutes and seconds

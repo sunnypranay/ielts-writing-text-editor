@@ -1,23 +1,22 @@
-# 🖋 IELTS - Writing - Practice 🖋
 
-- Visit our website <a href="https://sunnypranay.github.io/ielts-writing-text-editor/" target="__blank__"> here </a>
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
-## Current Features 👨‍💻.
+# 🖋 IELTS Writing Practice Tool 🖋
 
-- This project mainly focused on a category of people who are preparing for IELTS exams.
+Visit our website [here](https://sunnypranay.github.io/ielts-writing-text-editor/).
 
-- This project will help you in the IELTS writing section specifically.
+## Features 👨‍💻
 
-- It provides you with timer ⏰ functionality. So that you can time your self while you are writing. when the time is up the text area will automatically be blocked. and it will prompt you with a pleasant sound to remind you that the time is over.
+This project is designed for individuals preparing for the IELTS exams, with a focus on aiding practice for the writing section.
 
-- It provides you with a word count also. So you can keep a tab on how much words you are writing.
+- **Timer Functionality ⏰**: Time yourself while practicing. Once the time is up, the text area will be locked, and a notification sound will alert you.
+  
+- **Word Count**: Keep track of your word count to meet your writing goals.
+  
+- **One-click Reset**: Easily reset the text editor with a single click.
 
-- Reset text editor with 👆 one-click.
+## Upcoming Enhancements 👨‍🔧
 
-### Future Works 👨‍🔧.
-
----
-
-- Embed questions in the editior.
-- Timer reset.
-- one click grammar check.
+- Embedding questions within the editor for direct prompts.
+- Timer reset functionality.
+- One-click grammar checking tool.

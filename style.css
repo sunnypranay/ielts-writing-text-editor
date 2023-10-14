@@ -1,3 +1,8 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
 #writing_area,
 #Time,
 #word_count {
@@ -42,12 +47,12 @@ body {
 }
 footer {
   display: flex;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   padding: 5px;
   margin-top: auto;
 }
 header {
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   padding: 5px;
 }
 a {

@@ -1,22 +1,24 @@
-
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
-# 🖋 IELTS Writing Practice Tool 🖋
+# IELTS Writing Practice Tool 📝
 
-Visit our website [here](https://sunnypranay.github.io/ielts-writing-text-editor/).
+Improve your IELTS writing skills with our interactive practice tool! Crafted with precision for an optimal user experience, it's tailored specifically for individuals gearing up for the IELTS exams.
 
-## Features 👨‍💻
+🚀 [**Launch the Tool**](https://sunnypranay.github.io/ielts-writing-text-editor/) 🚀
 
-This project is designed for individuals preparing for the IELTS exams, with a focus on aiding practice for the writing section.
+## Key Features 🌟
 
-- **Timer Functionality ⏰**: Time yourself while practicing. Once the time is up, the text area will be locked, and a notification sound will alert you.
-  
-- **Word Count**: Keep track of your word count to meet your writing goals.
-  
-- **One-click Reset**: Easily reset the text editor with a single click.
+- **Timed Practice ⌛**: Simulate real exam conditions with a built-in timer. Once your practice session ends, the editor locks, accompanied by a notification sound to grab your attention.
 
-## Upcoming Enhancements 👨‍🔧
+- **Live Word Count 📊**: Monitor your word count in real-time, ensuring you always meet the required length for your essays.
 
-- Embedding questions within the editor for direct prompts.
-- Timer reset functionality.
-- One-click grammar checking tool.
+- **Instant Reset Button 🔄**: A dedicated button to clear the editor, allowing you to start fresh in an instant.
+
+## Coming Soon 🚧
+
+- **Embedded Prompts**: Practice with embedded IELTS questions right within the editor for seamless preparation.
+
+- **Enhanced Timer Options**: Greater control over your timer settings, including pausing and resetting.
+
+- **Grammar Assistance**: Elevate your writing with an integrated grammar-checker tool, ensuring your essays are polished and error-free.
+
